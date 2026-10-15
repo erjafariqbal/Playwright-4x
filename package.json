@@ -1,0 +1,21 @@
+{
+  "name": "learnjstsplaywright4x",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/erjafariqbal/Playwright-4x#readme",
+  "bugs": {
+    "url": "https://github.com/erjafariqbal/Playwright-4x/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erjafariqbal/Playwright-4x.git"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
