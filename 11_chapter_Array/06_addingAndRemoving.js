@@ -45,7 +45,7 @@ console.log(arr);
 //Splice : remove the element from the array and add the new element at their place if required.
 
  
-arrs = [1,2,3,4,5,6]
+let arrs = [1,2,3,4,5,6]
 
 arrs.splice(2,1)
 console.log(arrs);
@@ -65,3 +65,10 @@ arrs.splice(2,0, 55)
 // The final array will be like  [1,2,55,4,5,6]
 // 
 console.log(arrs);
+
+arrs.splice(2, 3, 10, 0,55)
+ console.log("after splice(2,3,10,0,55)");
+ console.log("The answer should be [1,2,10,0,55,6]");
+ 
+console.log(arrs);
+
