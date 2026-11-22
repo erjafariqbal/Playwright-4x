@@ -1,5 +1,7 @@
 // Finding the element from Array
 
+const { log } = require("node:console");
+
 let num = [1,2,3,4,5]
 
 let result = num.find( temp => temp >3)
@@ -15,5 +17,6 @@ console.log(index);
 // finding last elemet and index of last element
 
 num.findLast(n => n>3)
-num.findLastIndex(n => n>3)
+let last_index = num.findLastIndex(n => n>3)
 
+console.log("Last element", last_index);

@@ -1,5 +1,3 @@
-const { log } = require("node:console")
-
 let A =[1,2,3,4]
 console.log("original Array A before Coying");
 console.log(A);

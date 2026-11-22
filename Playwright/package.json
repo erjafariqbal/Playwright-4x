@@ -1,0 +1,17 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:browsers": "PLAYWRIGHT_BROWSERS_PATH=0 playwright install",
+    "test": "PLAYWRIGHT_BROWSERS_PATH=0 playwright test",
+    "test:headed": "PLAYWRIGHT_BROWSERS_PATH=0 playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0"
+  }
+}
